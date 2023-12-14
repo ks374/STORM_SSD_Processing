@@ -21,3 +21,5 @@ Mapper_list = cat(2,Mapper_list,Directory_mapper_CSV('B2P8B','Y:\Chenghang\4_Col
 Mapper_list = cat(2,Mapper_list,Directory_mapper_CSV('B2P8C','Y:\Chenghang\4_Color\Raw\1.11.2021_B2P8C_B_V2\','Y:\Chenghang\SSD_and_ML\SSD_CSV\'));
 
 save([outpath 'Mapper_list.mat'],'Mapper_list');
+%%
+test = Directory_mapper_CSV('WTP8B','X:\Chenghang\04_4_Color\Exp_Group\12.23.2020_P8EB_B_V2\','Y:\Chenghang\SSD_and_ML\SSD_CSV\');

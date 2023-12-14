@@ -5,6 +5,7 @@ classdef Directory_mapper_CSV < Directory_mapper
     properties
         CSV_directory char;
         CSV_list;
+        Cluster_linker;
     end
     
     methods
@@ -14,6 +15,7 @@ classdef Directory_mapper_CSV < Directory_mapper
             obj.CSV_directory = [CSV_path,name,'\'];
 
             obj.CSV_list = SSD_CSV(obj);
+            obj.Cluster_linker = Cluster_linker(obj);
         end
         
     end
